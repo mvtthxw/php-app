@@ -9,7 +9,7 @@ COPY index.php /web/index.php
 FROM php:8.2-apache
 
 #Copy content
-COPY --from=first /web/index.html /var/www/html/
+COPY --from=first /web/index.php /var/www/html/
 
 EXPOSE 80
 
