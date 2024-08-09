@@ -6,7 +6,7 @@ pipeline {
         string(description: 'AWS Region', name: 'AWS_REGION', defaultValue: 'eu-west-2')
         string(description: 'ECR Registry', name: 'ECR_REGISTRY', defaultValue: '737473224894.dkr.ecr.eu-west-2.amazonaws.com')
         string(description: 'ECR Repo', name: 'ECR_REPOSITORY', defaultValue: 'mmedyk-cicd-mid')
-        string(description: 'Docker image tag', name: 'DOCKER_IMAGE_TAG', defaultValue: 'v1.0.1')
+        string(description: 'Docker image tag', name: 'DOCKER_IMAGE_TAG', defaultValue: 'v1.0.2')
     }
 
     stages {
